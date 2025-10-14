@@ -20,7 +20,7 @@ import java.io.InputStream;
 public class AwsS3Service {
 
     //    private final String bucketName = "del-luna-hotel-images";
-    private final String bucketName = "del-luna-hotel-mongo";
+    private final String bucketName = "del-luna-hotel-images";
 
     @Value("${aws.s3.access.key}")
     private String awsS3AccessKey;
