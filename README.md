@@ -28,9 +28,6 @@
 - [Screenshots](#-screenshots)
 - [Getting Started](#-getting-started)
 - [API Documentation](#-api-documentation)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
