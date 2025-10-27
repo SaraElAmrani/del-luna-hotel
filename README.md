@@ -6,7 +6,7 @@
 
 **A modern, full-stack hotel management system built with Spring Boot and React**
 
-• [Frontend Repository](https://github.com/SaraElAmrani/del-luna-hotel-react)   • [Live Demo](#) 
+• [Frontend Repository](https://1pnxfrv9-3000.uks1.devtunnels.ms/home)   • [Live Demo](#) 
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-19.2.0-blue.svg)](https://reactjs.org/)
