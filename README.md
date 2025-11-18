@@ -50,20 +50,20 @@
 
 ##  Features
 
-### 🔐 Authentication & Authorization
+###  Authentication & Authorization
 - User registration and login
 - JWT token-based authentication
 - Role-based access control (Admin/User)
 - Secure password encryption with Spring Security
 
-### 🏢 Room Management
+###  Room Management
 - Browse available rooms with advanced filters
 - View detailed room information and amenities
 - Room search by type, date, and availability
 - Image gallery with AWS S3 integration
 - Admin panel for adding/editing/deleting rooms
 
-### 📅 Booking System
+###  Booking System
 - Real-time room availability checking
 - Easy booking process with date selection
 - Booking confirmation and management
@@ -71,20 +71,20 @@
 - Cancel or modify existing bookings
 - Confirmation code tracking
 
-### 👤 User Profile
+###  User Profile
 - Personal dashboard
 - Edit profile information
 - View booking history
 - Manage account settings
 
-### 🎛️ Admin Dashboard
+###  Admin Dashboard
 - Comprehensive admin panel
 - Manage all rooms and bookings
 - View and edit user information
 - Analytics and reporting
 - Bulk operations support
 
-### 🎨 Additional Features
+###  Additional Features
 - Responsive design for all devices
 - Amenities showcase (WiFi, AC, Parking, Mini-bar)
 - Pagination for large datasets
@@ -240,6 +240,20 @@ del-luna-hotel-react/
 
 ##  Screenshots
 
+### Retrieving Images from Amazon S3
+
+- The application uses Amazon S3 as an external storage space for room images.
+
+- When an image is uploaded, the AwsS3Service sends it directly to the S3 bucket using the configured AWS credentials.
+
+- After the upload, S3 automatically generates a public URL for the stored file.
+
+- This URL is returned by the backend and saved in the database, linked to the corresponding room.
+
+- To display an image, the frontend simply uses this URL in an <'img' src="..."> tag.
+
+![S3_aws](src/main/resources/pic/S3_aws.png)
+![S3](src/main/resources/pic/architecture.png)
 ### 🏠 Homepage
 ![Homepage](src/main/resources/pic/homepage.png)
 *Modern and welcoming landing page showcasing hotel features and amenities*
