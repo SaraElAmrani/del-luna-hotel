@@ -5,6 +5,14 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * This class is a Data Transfer Object (DTO) used to send consistent responses
+ * from my Spring Boot backend to the frontend (React).
+ *
+ * It serves as a standardized structure for all JSON responses from my API.
+ *
+ * Response = response from the backend → frontend
+ */
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Response {
